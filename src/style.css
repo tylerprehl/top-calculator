@@ -1,0 +1,80 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    margin: 10px 0 0 0;
+    font-size: 28px;
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    /* border: 3px solid white; */
+    gap: 10px;
+}
+
+.evaluation-field {
+    display: flex;
+    justify-content: end;
+}
+
+.options-container {
+    display: flex;
+    gap: 10px;
+}
+
+.digits-container {
+    display: flex;
+    flex-direction: column;
+    height: 254px;
+    gap: 10px;
+}
+
+.operators-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 254px;
+    gap: 10px;
+}
+
+button.calculator-option {
+    display: flex;
+    height: 56px;
+    width: 56px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    border: none;
+}
+
+.digits-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button.digit {
+    color: white;
+    background-color: rgb(61, 61, 61);
+}
+
+button.digit:active {
+    background-color: rgb(80, 80, 80);
+}
+
+button.operator {
+    background-color: goldenrod;
+}
+
+button.operator:active {
+    background-color: rgb(255, 194, 39);
+}

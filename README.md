@@ -1,7 +1,7 @@
 #  The Odin Project - Calculator
 You can access this webpage by visiting: https://tylerprehl.github.io/top-calculator/
 <br><br>
-The overarching goal of this project are to demonstrate and help reinforce understanding of JavaScript, HTML, and CSS skills
+The overarching goal of this project are to demonstrate and help reinforce understanding of JavaScript, HTML, CSS, and problem solving skills
 <br><br>
 Some more specific cool things I learned along the way:
 <ul>
