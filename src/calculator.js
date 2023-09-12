@@ -161,15 +161,19 @@ clearButton.addEventListener("click", clear);
 /*
 Ideas for how to implement calculator (to prevent certain issues):
 - need to big re-think the "operate" function
+    > the chaining of operations works well now
+    > using the equals sign needs work
 - go for iPhone's operator locking mechanism (choosing an operator after JUST 
     choosing an operator will result in the old operator being replaced with the 
     new one)
     > keep chosen operator highlighted
 - implement maximum digit amount
+- implement "start from 0" (previousNumber = 0?)
 - how the display gets updated:
     > if you enter a digit, that digit gets displayed at ANY time
     > if you enter an operator, if there is a previous operator (that is NOT 
         and equals sign), sum the previous and current numbers and display result
     > if you enter the equal sign:
-       * 
+        * after =: repeat last operation (if you just did 5+3, redo the +3)
+        * after number: perform previous operation
 */
