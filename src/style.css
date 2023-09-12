@@ -68,13 +68,18 @@ button.digit {
 }
 
 button.digit:active {
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(104, 104, 104);
 }
 
 button.operator {
+    color: black;
     background-color: goldenrod;
 }
 
 button.operator:active {
-    background-color: rgb(255, 194, 39);
+    background-color: rgb(255, 209, 91);
+}
+
+#clear {
+    font-size: 24px;
 }
