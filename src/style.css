@@ -26,6 +26,7 @@ body {
 
 .options-container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
 }
@@ -35,20 +36,20 @@ button.calculator-option {
     height: 56px;
     width: 56px;
     box-sizing: border-box;
-    border-radius: 50%;
+    border-radius: 28px;
     justify-content: center;
     align-items: center;
     font-size: 28px;
     border: none;
 }
 
-.digits-row {
+.options-row {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-button.digit {
+button.digit-color {
     color: white;
     background-color: rgb(61, 61, 61);
 }
@@ -63,6 +64,25 @@ button.operator {
 }
 
 button.operator:active {
+    background-color: rgb(255, 209, 91);
+}
+
+button.utility {
+    color: black;
+    background-color: rgb(168, 168, 168);
+}
+
+button.utility:active {
+    background-color: rgb(216, 216, 216);
+
+}
+
+button.grow {
+    display: flex;
+    flex-grow: 1;
+}
+
+button.selected {
     background-color: rgb(255, 209, 91);
 }
 

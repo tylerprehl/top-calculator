@@ -6,18 +6,21 @@ The overarching goal of this project are to demonstrate and help reinforce under
 ### Complete so far:
 <ul>
 <li>Calculator UI
-<li>Calculator functionality
+<li>Basic calculator functionality
+<li>Selected operator remains highlighted as necessary
+<li>Implemented decimal point option
+<li>Implemented negative/postive number option (although it isn't a really clean implementation)
+<li>Implemented maximum digit amount in an entered numbers
+<li>Implemented maximum *significant digit amount in result numbers
 </ul>
 
-### To do:
+### To do (for 100% completion):
 <ul>
-<li>Have operators remain highlighted until a digit or different operator is selected</li>
-<li>Include negative/positive number option</li>
-<li>Include decimal point</li>
-<li>Implement maximum digit amount in an entered number</li>
+<li>Inlcude backspace option
+<li>Include keyboard support
 </ul>
 
-### Some more specific cool things I learned along the way:
+### Other interesting things of note:
 <ul>
-<li>Nothing new yet - I must be pretty good &#x1F60E;</li>
+<li>Learned about toPrecision, toExponential, parseFloat, and the struggle to get clean calculator numbers
 </ul>
