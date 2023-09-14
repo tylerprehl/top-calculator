@@ -2,14 +2,12 @@
 You can access this webpage by visiting: https://tylerprehl.github.io/top-calculator/
 <br><br>
 The overarching goal of this project are to demonstrate and help reinforce understanding of JavaScript, HTML, CSS, and problem solving skills
-<br>
 
 ### Complete so far:
 <ul>
 <li>Calculator UI
 <li>Calculator functionality
 </ul>
-<br>
 
 ### To do:
 <ul>
@@ -18,7 +16,6 @@ The overarching goal of this project are to demonstrate and help reinforce under
 <li>Include decimal point</li>
 <li>Implement maximum digit amount in an entered number</li>
 </ul>
-<br>
 
 ### Some more specific cool things I learned along the way:
 <ul>
